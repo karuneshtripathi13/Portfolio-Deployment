@@ -171,8 +171,9 @@ section {
     font-size: 4vw;
   }
   .homexplore{
-    margin-top: 20vw;
+    margin-top: 15vw;
     font-size: 4vw;
+    padding: 2%;
     width: fit-content;
   }
   .nav-item{
