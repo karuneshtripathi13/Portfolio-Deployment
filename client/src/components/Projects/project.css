@@ -1,5 +1,6 @@
 #Projects{
-    min-height: 120vh;
+    min-height: 100vh;
+    padding: 5vw;
 }
 .projectheading{
     color: white;
@@ -9,8 +10,8 @@
     width: fit-content;
     padding: 0 2% 0 2%;
     margin: auto;
-    margin-top: 20vh;
-    margin-bottom: 5vh;
+    margin-top: 10vh;
+    margin-bottom: 0vh;
 }
 .photopj{
     width: 25vw;
@@ -29,15 +30,15 @@
 }
 .next{
     z-index: 2;
-    position: absolute;
-    left: 74vw;
-    top:505vh
+    position: relative;
+    left: 29.5vw;
+    top:28.5vh
 }
 .prev{
     z-index: 2;
-    position: absolute;
-    left: 22vw;
-    top:505vh
+    position: relative;
+    left: -28vw;
+    top:28.5vh
 }
 .details{
     font-size: 0.7vw;

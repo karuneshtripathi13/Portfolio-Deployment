@@ -7,6 +7,9 @@ body{
   width: 100vw;
   overflow-x: hidden;
 }
+.overflowhandling{
+  overflow-x: hidden;
+}
 section {
   display: flex;
   flex-direction: column;

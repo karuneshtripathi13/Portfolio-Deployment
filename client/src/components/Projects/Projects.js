@@ -68,7 +68,7 @@ const Projects = () => {
         <FontAwesomeIcon
           icon={faChevronCircleDown}
           size={"5x"}
-          style={{ marginTop: "70vh", color: "white" }}
+          style={{ marginTop: "30vh", color: "white" }}
         />
       </a>
     </div>

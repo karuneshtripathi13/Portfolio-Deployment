@@ -1,5 +1,6 @@
 #Skillset{
-    min-height: 100vh;
+  min-height: 100vh;
+  padding: 5vw;
 }
 .skillsetheading{
     color: black;
@@ -9,7 +10,7 @@
     width: fit-content;
     padding: 0 2% 0 2%;
     margin: auto;
-    margin-top: 20vh;
+    margin-top: 10vh;
     margin-bottom: 5vh;
 }
 .barcontainer {

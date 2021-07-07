@@ -1,5 +1,6 @@
 #AboutMe{
     min-height: 100vh;
+    padding: 5vw;
 }
 .aboutme{
     align-items: center;
@@ -13,7 +14,7 @@
     width: fit-content;
     padding: 0 2% 0 2%;
     margin: auto;
-    margin-top: 20vh;
+    margin-top: 10vh;
     margin-bottom: 5vh;
 }
 .profile{

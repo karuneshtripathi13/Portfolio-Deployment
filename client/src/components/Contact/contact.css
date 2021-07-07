@@ -1,5 +1,6 @@
 #Contact {
-  min-height: 170vh;
+  min-height: 100vh;
+    padding: 5vw;
   position: relative;
 }
 .wrap{
@@ -29,7 +30,7 @@
   width: fit-content;
   padding: 0 2% 0 2%;
   margin: auto;
-  margin-top: 20vh;
+  margin-top: 10vh;
   margin-bottom: 5vh;
 }
 .formcontainer{
@@ -40,7 +41,7 @@
 }
 .formip{
   padding: 0.7vw;
-  min-width: 20vw;
+  width: 20vw;
   border-radius: 0.5vw;
 }
 .sendbtn{
