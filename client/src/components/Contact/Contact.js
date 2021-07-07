@@ -115,20 +115,20 @@ const Contact = () => {
       <div className="icons">
         <div className="contactdetails">
           <div className="address">
-            <div style={{ marginLeft: "0" }}>3/58, Sector-H, Jankipuram,</div>
-            <div style={{ marginLeft: "-3.5vw" }}>Kursi Road, Lucknow,</div>
-            <div style={{ marginLeft: "-4vw" }}>Uttar Pradesh, India.</div>
-            <div style={{ marginLeft: "-10vw" }}>(226021).</div>
+            <div className="add" style={{ marginLeft: "0" }}>3/58, Sector-H, Jankipuram,</div>
+            <div className="add" style={{ marginLeft: "-3.5vw" }}>Kursi Road, Lucknow,</div>
+            <div className="add" style={{ marginLeft: "-4vw" }}>Uttar Pradesh, India.</div>
+            <div className="add" style={{ marginLeft: "-10vw" }}>(226021).</div>
           </div>
           <p className="numbermail">
-            <div style={{ padding: "0.5vw" }}>
-              Contact Number: +91-9026177567
+            <div className="add" style={{ padding: "0.5vw" }}>
+              Contact Number:<div>+91-9026177567</div>
             </div>
-            <div style={{ padding: "0.5vw", marginLeft: "3vw" }}>
+            <div className="add" style={{ padding: "0.5vw", marginLeft: "3vw" }}>
               Email ID: karuneshtripathi13@gmail.com
             </div>
-            <div style={{ padding: "0.5vw", marginLeft: "1vw" }}>
-              WhatApp Number: +91-8853810971
+            <div className="add" style={{ padding: "0.5vw", marginLeft: "1vw" }}>
+              WhatApp Number:<div>+91-8853810971</div>
             </div>
           </p>
         </div>

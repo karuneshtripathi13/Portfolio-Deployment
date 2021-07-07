@@ -151,7 +151,7 @@
     transform: scale(1, 1) translateY(0);
   }
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 990px) {
   .skillsetheading {
     font-size: 7vw;
   }
@@ -184,15 +184,19 @@
     margin-top: 3vw;
   }
   .htmllogo{
-    animation: moveright 3s infinite ease-in-out;
+    animation: moveright 3s infinite ease-in;
+    width: 15vw !important;
+    height: 15vw !important;
   }
   @keyframes moveright {
-    50%{transform: translateX(360%);}
+    50%{transform: translateX(215%);}
   }
   #jslogo{
-    animation: moveleft 3s infinite ease-in-out;
+    width: 15vw !important;
+    height: 15vw !important;
+    animation: moveleft 3s infinite ease-in;
   }
   @keyframes moveleft {
-    50%{transform: translateX(-300%);}
+    50%{transform: translateX(-165%);}
   }
 }

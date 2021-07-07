@@ -181,7 +181,58 @@
   border: solid 2px grey;
   margin-left: 35vw;
   margin-top: 0.5vw;
+  font-size: 1.2vw;
 }
 .messagedisappear{
   display: none;
+}
+@media only screen and (max-width:990px) {
+  .contactheading{
+    font-size: 7vw;
+  }
+  .formip{
+    font-size: 4vw;
+    width: 60vw;
+    border-radius: 2vw;
+    margin: 2vw;
+    padding: 1vw;
+  }
+  .sendbtn{
+    font-size: 4.5vw;
+    margin-top: 2vw;
+    padding: 2vw;
+    padding-left: 4vw;
+  padding-right: 4vw;
+  border-radius: 1.5vw;
+  }
+  .messageappear{
+    font-size: 4.5vw;
+    margin-left: 13vw;
+    padding: 2vw;
+    margin-top: 2vw;
+  }
+  .icons{
+    padding: 2vw;
+    height: fit-content;
+    margin-top: 5vw;
+  }
+  .numbermail{
+    font-size: 3vw;
+  }
+  .address{
+    font-size: 3vw;
+  }
+  .add{
+    margin-left: 0 !important;
+  }
+  .socialmedia{
+    margin-top: 5vw;
+    padding: 3vw;
+  }
+  .followme{
+    font-size: 4vw;
+  }
+  .copyrights{
+    font-size: 3vw;
+  }
 }

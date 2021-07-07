@@ -84,3 +84,24 @@
 .logocont{
     display: flex;
 }
+@media only screen and (max-width:990px) {
+    .educationheading{
+        font-size: 7vw;
+    }
+    .swing div{
+        font-size: 4vw;
+    }
+    .swing:before{
+        left: 51.75%;
+    }
+    .googlelogo{
+        width: 22vw;
+        height: 22vw;
+        margin-left: 27.5vw;
+    }
+    .stacklogo{
+        width: 12vw;
+        height: 12vw;
+        margin-left: 12.5vw;
+    }
+}
