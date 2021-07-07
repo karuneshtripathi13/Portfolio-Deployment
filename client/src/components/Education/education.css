@@ -1,0 +1,85 @@
+#Education{
+    min-height: 150vh;
+}
+.educationheading{
+    color: black;
+    font-weight: 600;
+    text-decoration: overline;
+    font-size: 3vw;
+    width: fit-content;
+    padding: 0 2% 0 2%;
+    margin: auto;
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+}
+.swing {
+    margin-top: 2%;
+    animation: swing ease-in-out 2s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.swing div {
+    border: 10px solid black;
+    display: block;
+    background-color: #212529;
+    color: gold;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.swing:after{
+    content: '';
+    position: absolute;  
+    width: 20px; height: 20px;  
+    border: 3px solid rgb(126, 57, 17);
+    top: -10px; left: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+}
+/* nail */
+.swing:before{
+    content: '';
+    position: absolute;
+    width: 10px; height: 10px;
+    top: -14px;left: 50.4%;
+    z-index: 5;
+    border-radius: 50% 50%;
+    background: gold;
+    border: solid 2px black;
+}
+ 
+@keyframes swing {
+    0% { transform: rotate(2deg); }
+    100% { transform: rotate(-2deg); }
+}
+.tenth{
+    padding: 2%;
+}
+.googlelogo{
+    display: inline;
+    margin-left: 60vw;
+    width: 10vw;
+    height: 10vw;
+    animation: sizeinc 4s infinite;
+}
+@keyframes sizeinc {
+    0% {transform:scale(1);}
+    50%{transform: scale(2);}
+}
+.stacklogo{
+    margin-top: 2vw;
+    display: inline;
+    width: 7vw;
+    height: 7vw;
+    animation: sizeinc1 4s infinite;
+}
+@keyframes sizeinc1 {
+    0% {transform:scale(2);}
+    50%{transform: scale(1);}
+    100%{transform: scale(2);}
+}
+.logocont{
+    display: flex;
+}

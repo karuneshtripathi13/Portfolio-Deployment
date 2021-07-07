@@ -1,0 +1,182 @@
+#Contact {
+  min-height: 170vh;
+  position: relative;
+}
+.wrap{
+    position: relative;
+    z-index: 1;
+}
+#Contact::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  filter: blur(5px);
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 120vh;
+  opacity: 0.7;
+  background-image: url("./skyscrapers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+.contactheading {
+  color: white;
+  font-weight: 600;
+  text-decoration: overline;
+  font-size: 3vw;
+  width: fit-content;
+  padding: 0 2% 0 2%;
+  margin: auto;
+  margin-top: 20vh;
+  margin-bottom: 5vh;
+}
+.formcontainer{
+    color: white;
+}
+.cover{
+  margin-top: 1vw;
+}
+.formip{
+  padding: 0.7vw;
+  min-width: 20vw;
+  border-radius: 0.5vw;
+}
+.sendbtn{
+  margin-top: 1vw;
+  padding: 0.7vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 0.5vw;
+  color: white;
+  font-size: 1.2vw;
+  font-weight: 500;
+  background-color:black;
+  border: solid 2px grey;
+  text-decoration: none;
+}
+.sendbtn:hover{
+  background-color: gray;
+  color:black;
+  border: solid 2px black;
+}
+.icons{
+  margin-top: 2vw;
+  background-color: #212529;
+  width: 85vw;
+  min-height: 42vh;
+  z-index: 1;
+  border-radius: 2vw;
+  border: solid 2px grey;
+}
+.linkedin{
+  border-radius: 1vw;
+  color: white;
+  padding: 0.3vw;
+  margin:1vw;
+}
+.linkedin:hover{
+  color:gold
+}
+.github{
+  border-radius: 1vw;
+  color: white;
+  padding: 0.3vw;
+  margin:1vw;
+}
+.github:hover{
+  color:gold
+}
+.twitter{
+  border-radius: 1vw;
+  color: white;
+  padding: 0.3vw;
+  margin:1vw;
+}
+.twitter:hover{
+  color:gold
+}
+.insta{
+  border-radius: 1vw;
+  color: white;
+  padding: 0.3vw;
+  margin:1vw;
+}
+.insta:hover{
+  color:gold
+}
+.youtube{
+  border-radius: 1vw;
+  color: white;
+  padding: 0.3vw;
+  margin:1vw;
+}
+.youtube:hover{
+  color:gold
+}
+.gmail{
+  border-radius: 1vw;
+  color: white;
+  padding: 0.3vw;
+  margin:1vw;
+  margin-left: 1vw;
+}
+.gmail:hover{
+  color:gold
+}
+.socialmedia{
+ margin-top: 2.5vw; 
+}
+.copyrights{
+  padding: 1vw;
+  color: darkgrey;
+  margin-top: 3vw;
+  margin-bottom: 2vw;
+}
+.followme{
+  color: gold;
+  font-size: 2vw;
+  font-weight: 600;
+  padding: 1vw;
+}
+.upp{
+  transition: 0.2s;
+}
+.upp:hover{
+  transform: translateY(-15%);
+}
+.contactdetails{
+  margin-top: 2vw;
+  color: gray;
+  display: flex;
+}
+.address{
+  margin-top: 3vw;
+  width: 50vw;
+  font-size: 1.2vw;
+}
+.address:hover{
+  color: white;
+}
+.numbermail{
+  margin-top: 3vw;
+  width: 50vw;
+  font-size: 1.2vw;
+}
+.numbermail:hover{
+  color: white;
+}
+.messageappear{
+  background-color: black;
+  padding: 1vw;
+  color: white;
+  border-radius: 1vw;
+  width: fit-content;
+  border: solid 2px grey;
+  margin-left: 35vw;
+  margin-top: 0.5vw;
+}
+.messagedisappear{
+  display: none;
+}

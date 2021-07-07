@@ -1,0 +1,38 @@
+#AboutMe{
+    min-height: 100vh;
+}
+.aboutme{
+    align-items: center;
+    text-align: center;
+}
+.about-heading{
+    color: white;
+    font-weight: 600;
+    text-decoration: overline;
+    font-size: 3vw;
+    width: fit-content;
+    padding: 0 2% 0 2%;
+    margin: auto;
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+}
+.profile{
+    max-width:20vw;
+    max-height: 45vh;
+    border-radius: 1vw;
+    padding: 1%;
+}
+.aboutcontainer{
+    display: flex;
+    padding-left: 4%;
+}
+.abouttext{
+    max-width: 50vw;
+    min-height: fit-content;
+    padding: 3%;
+    margin-left: 2%;
+    background-color: white;
+    border-radius: 1vw;
+    font-size: 1.14vw;
+    font-weight: 500;
+}

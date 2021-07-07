@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%; 
+  /* Scroll Snap */
+  scroll-snap-align: center;
+}
+.all {
+  width: 100%;
+  height: 100%;
+  /* CSS Smooth Scroll */
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+#logo {
+  padding: 0;
+  margin: 0;
+  font-size: 5vw;
+  font-family: "Tangerine", serif;
+  color: gold;
+}
+#navpos{
+  display: none;
+  position: fixed;
+  top:0;
+  width: 100vw;
+  padding-left: 1%;
+  z-index: 3;
+}
+.Navigation {
+  margin: 0;
+  color: whitesmoke;
+}
+
+.navbar-nav > li > a {
+  color: gold !important;
+  font-weight: 500;
+  font-size: 1.25vw;
+  padding-left: 5vw;
+}
+.nav a.nav-link {
+  cursor: pointer;
+}
+.nav-item {
+  padding-left: 1.6vw;
+}
+.navbar-nav > li > a:hover{
+  color: black !important;
+  background-color: gold;
+  border-radius: 0.2vw;
+  transition: background-color 0.5s ease-in;
+}
+
+#Home{
+  justify-content: center;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  background-color: #212529;
+}
+#AboutMe {
+  background-color: rgb(26, 26, 90);
+}
+#Skillset{
+  background-color: white;
+}
+#Education{
+  background-color: #eee;
+}
+#Projects{
+  background-color: rgb(73, 5, 5);
+}
+#Contact{
+  background-color: black;
+}
+.homexplore{
+  position: absolute;
+  z-index: 3;
+  display: block;
+  width: 25vw;
+  text-decoration: none;
+  padding: 1%;
+  margin-left: 19.5vw;
+  margin-top: 1%;
+  border: solid 2px;
+  border-color: white;
+  color: white;
+  font-size: 1.7vw;
+}
+.homexplore:hover{
+  background-color: gold;
+  color: black;
+  border-color: black;
+}
+.arrow{
+  transition: transform 0.5s ease;
+}
+.homexplore:hover .arrow{
+ transform: rotate(90deg);
+}
+.typing{
+  z-index: 3;
+  font-size: 2vw;
+  color: white;
+  font-weight: 500;
+}
+.hello{
+  z-index: 3;
+  font-size: 5vw;
+  font-weight: 500;
+  color: white;
+}
+.interest{
+  z-index: 3;
+  font-size: 3vw;
+  font-weight: 500;
+  color: white;
+}
+.name{
+  z-index: 3;
+  display: inline;
+  color: gold;
+}
+.particles{
+  z-index: 1;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.tsparticles-canvas-el{
+  z-index: 1;
+}
