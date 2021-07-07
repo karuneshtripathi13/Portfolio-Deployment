@@ -52,5 +52,4 @@ if (process.env.NODE_ENV === "production"){
         res.sendFile(path.resolve(__dirname,"client",  "build", "index.html"));
       });
     }
-var PORT=8080||process.env.PORT
-app.listen( PORT,()=>console.log(`Server Started new...${PORT}`));
+app.listen( 8080||process.env.PORT,()=>console.log(`Server Started new...${PORT}`));
