@@ -41,43 +41,60 @@
         background-color: rgb(15, 15, 15);
       }
   }
-  
-  .col {
-    // height: 264px;
-    // position: relative;
-    // &:before,
-    // &:after {
-    //     content: '';
-    //     display: block;
-    //     width: 50%;
-    //     height: 120%;
-    //     background: linear-gradient(to right, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 0) 100%);
-    //     position: absolute;
-    //     top: 0;
-    //     left: 0;
-    //     z-index: 2;
-    // }
-    // &:after {
-    //     left: auto;
-    //     right: 0;
-    //     background: linear-gradient(to left, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 0) 100%);
-    // }
+
+
+  @media only screen and (max-width: 1000px){
+    .photopj{
+      width: 80vw;
+      height: 23vh;
+    }
+    .details{
+      font-size: 3vw;
+    }
+    .prev{
+      display: none;
+    }
+    .next{
+      display: none;
+    }
+    #dnpj{
+      margin-top: 5vh;
+    }
+    .projectheading{
+      font-size: 7vw;
+    }
+    .cards-slider-wrapper {
+      flex-direction: column;
+      margin-left: 7vw;
+      .card {
+        opacity: 1;
+        background-color: black;
+        border: solid 3px;
+        border-color: black;
+        transform: scale(1);
+        margin-bottom: 5vw;
+        .details {
+          opacity: 1;
+        }
+      }
+    }
+    $i: 0;
+  @for $i from 1 through 10 {
+      .cards-slider.active-slide-#{$i} #card-#{$i} {
+        opacity: 1;
+        transform: scale(1);
+        background-color: black;
+        border: solid 3px;
+        border-color: black;
+        .card{
+          opacity: 1;
+        }
+        .details {
+          opacity: 1;
+        }
+      }
+      .cards-slider.active-slide-#{$i} #card-#{$i}:hover{
+        background-color: rgb(15, 15, 15);
+      }
   }
-  
-  .cards-slider {
-    // position: relative;
-    // max-width: 226px;
-    // margin: 0 auto;
-  
-    // boder for active property
-    // &:after {
-    //   content: '';
-    //   display: block;
-    //   width: 50vw;
-    //   height: 50vh;
-    //   outline: 5px solid #61DAFB;
-    //   position: absolute;
-    //   top: 2vw; 
-    // }
   }
-  /* #endregion */

@@ -43,6 +43,7 @@
   padding: 0.7vw;
   width: 20vw;
   border-radius: 0.5vw;
+  font-size: 1.145vw;
 }
 .sendbtn{
   margin-top: 1vw;
@@ -136,6 +137,7 @@
   color: darkgrey;
   margin-top: 3vw;
   margin-bottom: 2vw;
+  font-size: 1.145vw;
 }
 .followme{
   color: gold;
