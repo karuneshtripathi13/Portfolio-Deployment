@@ -10,13 +10,13 @@ const Skills = () => {
   return (
     <div>
       <div className="skillsetheading">SKILLSET</div>
-      <div style={{ display: "flex" }}>
+      <div className="anime" style={{ display: "flex" }}>
         <div className="logocontainter" style={{ display: "flex", flexDirection: "column" }}>
           <img
             src={logo}
             alt="reactlogo"
             className="reactlogoanimation"
-            style={{ width: "10vw", height: "10vw", marginRight: "3vw",marginTop:"2vw",marginLeft:"2vw" }}
+            style={{ width: "10vw", height: "10vw", marginRight: "3vw",marginTop:"0vw",marginLeft:"2vw" }}
           ></img>
           <img
             src={nodelogo}
@@ -74,9 +74,9 @@ const Skills = () => {
             </span>
           </div>
         </div>
-        <div style={{display:"flex",flexDirection:"column"}}>
-          <img src={htmllogo} alt="htmllogo" style={{width:"10vw",height:"10vw",marginRight:"5vw"}}></img>
-          <img src={jslogo} alt="jslogo" className="box bounce-7" style={{width:"10vw",height:"10vw",marginRight:"5vw",marginTop:"2vw"}}></img>          
+        <div className="logocontainer2" style={{display:"flex",flexDirection:"column"}}>
+          <img src={htmllogo} alt="htmllogo" className="htmllogo" style={{width:"10vw",height:"10vw",marginRight:"5vw"}}></img>
+          <img src={jslogo} alt="jslogo" id="jslogo" className="box bounce-7" style={{width:"10vw",height:"10vw",marginRight:"5vw",marginTop:"2vw"}}></img>          
           </div>
       </div>
       <a href="#Education">

@@ -1,17 +1,17 @@
-#Skillset{
+#Skillset {
   min-height: 100vh;
   padding: 5vw;
 }
-.skillsetheading{
-    color: black;
-    font-weight: 600;
-    text-decoration: overline;
-    font-size: 3vw;
-    width: fit-content;
-    padding: 0 2% 0 2%;
-    margin: auto;
-    margin-top: 10vh;
-    margin-bottom: 5vh;
+.skillsetheading {
+  color: black;
+  font-weight: 600;
+  text-decoration: overline;
+  font-size: 3vw;
+  width: fit-content;
+  padding: 0 2% 0 2%;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
 }
 .barcontainer {
   flex-direction: row;
@@ -42,10 +42,10 @@
   height: 4vh;
 }
 .percent5 {
-    width: 45%;
-    background-color: #00a1a7;
-    height: 4vh;
-  }
+  width: 45%;
+  background-color: #00a1a7;
+  height: 4vh;
+}
 .skill {
   display: inline;
   width: 25%;
@@ -53,63 +53,146 @@
   color: white;
   font-weight: 650;
 }
-.reactlogoanimation{
-    z-index: 0;
-    animation: rotation 10s infinite linear;
+.reactlogoanimation {
+  z-index: 0;
+  animation: rotation 10s infinite linear;
 }
 @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
+  from {
+    transform: rotate(0deg);
   }
-.nodelogoanimation{
-    animation: rotationjs 10s infinite linear;
+  to {
+    transform: rotate(359deg);
+  }
+}
+.nodelogoanimation {
+  animation: rotationjs 10s infinite linear;
 }
 @keyframes rotationjs {
-    from {
-      transform: rotate(359deg);
-    }
-    to {
-      transform: rotate(0deg);
-    }
+  from {
+    transform: rotate(359deg);
   }
-.logocontainter{
-    animation: moveing 20s infinite linear;
-    border-radius: 1vw;
-    margin-right: 2vw;
-    
+  to {
+    transform: rotate(0deg);
+  }
+}
+.logocontainter {
+  animation: moveing 20s infinite linear;
+  border-radius: 1vw;
+  margin-right: 2vw;
+  justify-content: center;
 }
 @keyframes moveing {
-    0%   {background-color: red; left:0vw; top:0vh;}
-  20%  {background-color: blue; left:0vw; top:100vh}
-  40%  {background-color: hotpink; left:0vw; top:100vh}
-  60%  {background-color: green; left:200px; top:200px;}
-  80%  {background-color: yellow; left:200px; top:0px;}
-  100% {background-color: red; left:0px; top:0px;}
+  0% {
+    background-color: red;
+    left: 0vw;
+    top: 0vh;
   }
-  .box {
-    align-self: flex-end;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    background-color: #F44336;
-    height: 200px;
-    margin: 0 auto 0 auto;
-    transform-origin: bottom;
-    width: 200px;
+  20% {
+    background-color: blue;
+    left: 0vw;
+    top: 100vh;
+  }
+  40% {
+    background-color: hotpink;
+    left: 0vw;
+    top: 100vh;
+  }
+  60% {
+    background-color: green;
+    left: 200px;
+    top: 200px;
+  }
+  80% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+.box {
+  align-self: flex-end;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-color: #f44336;
+  height: 200px;
+  margin: 0 auto 0 auto;
+  transform-origin: bottom;
+  width: 200px;
 }
 .bounce-7 {
-    animation-name: bounce-7;
-    animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+  animation-name: bounce-7;
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
 }
 @keyframes bounce-7 {
-    0%   { transform: scale(1,1)      translateY(0); }
-    10%  { transform: scale(1.1,.9)   translateY(0); }
-    30%  { transform: scale(.9,1.1)   translateY(-150px); }
-    50%  { transform: scale(1.05,.95) translateY(0); }
-    57%  { transform: scale(1,1)      translateY(-7px); }
-    64%  { transform: scale(1,1)      translateY(0); }
-    100% { transform: scale(1,1)      translateY(0); }
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-150px);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .skillsetheading {
+    font-size: 7vw;
+  }
+  .logocontainter {
+    flex-direction: row !important;
+    animation: flux 15s infinite linear;
+  }
+  @keyframes flux {
+    25%{transform:translateX(-30%) ;}
+    75%{transform:translateX(30%) ;}
+  }
+  .nodelogoanimation {
+    width: 15vw !important;
+    height: 17vw !important;
+    margin-top: 0vw !important;
+    margin-left: 0vw !important;
+  }
+  .reactlogoanimation {
+    width: 16vw !important;
+    height: 16vw !important;
+    margin-right: 0vw !important;
+    margin-top: 0vw !important;
+    margin-left: 28vw !important;
+  }
+  .anime {
+    flex-direction: column;
+  }
+  .logocontainer2{
+    flex-direction: row !important;
+    margin-top: 3vw;
+  }
+  .htmllogo{
+    animation: moveright 3s infinite ease-in-out;
+  }
+  @keyframes moveright {
+    50%{transform: translateX(360%);}
+  }
+  #jslogo{
+    animation: moveleft 3s infinite ease-in-out;
+  }
+  @keyframes moveleft {
+    50%{transform: translateX(-300%);}
+  }
 }

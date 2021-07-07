@@ -37,3 +37,24 @@
     font-size: 1.14vw;
     font-weight: 500;
 }
+@media only screen and (max-width: 1000px){
+    .about-heading{
+        font-size: 7vw;
+    }
+    .aboutcontainer{
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        padding-left: 0%;
+    }
+    .profile{
+        max-width: 100vw;
+        height: 40vh;
+        border-radius: 5vw;
+        margin-bottom: 5vw;
+    }
+    .abouttext{
+        font-size: 3vw;
+        max-width: 90vw;
+    }
+}
