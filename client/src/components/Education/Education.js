@@ -42,7 +42,7 @@ const Education = () => {
       <a href="#Projects">
         <FontAwesomeIcon
           icon={faChevronCircleDown}
-          size={"5x"}
+          className="downarrow"
           style={{
             marginTop: "2vw",
             color: "#212529",

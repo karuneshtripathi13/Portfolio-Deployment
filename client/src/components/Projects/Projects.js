@@ -36,14 +36,12 @@ const Projects = () => {
             className="next"
             onClick={() =>{if(project.id !== projects.length) nextProperty()}}
             icon={faChevronCircleRight}
-            size={"5x"}
             style={{ marginTop: "2vw", color: "gold" }}
           />
           <FontAwesomeIcon
             className="prev"
             onClick={() =>{if(project.id !== 1) prevProperty()}}
             icon={faChevronCircleLeft}
-            size={"5x"}
             style={{ marginTop: "2vw", color: "gold" }}
           />
           <div className="col">
@@ -67,7 +65,7 @@ const Projects = () => {
       <a href="#Contact" style={{ bottom: 0 }}>
         <FontAwesomeIcon
           icon={faChevronCircleDown}
-          size={"5x"}
+          className="downarrow"
           style={{ marginTop: "30vh", color: "white" }}
         />
       </a>

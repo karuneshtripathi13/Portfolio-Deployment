@@ -31,14 +31,16 @@
 .next{
     z-index: 2;
     position: relative;
-    left: 29.5vw;
-    top:28.5vh
+    left: 28.19vw;
+    top:28.5vh;
+    font-size: 5.5vw;
 }
 .prev{
     z-index: 2;
     position: relative;
-    left: -28vw;
-    top:28.5vh
+    left: -29.75vw;
+    top:28.5vh;
+    font-size: 5.5vw;
 }
 .details{
     font-size: 0.7vw;

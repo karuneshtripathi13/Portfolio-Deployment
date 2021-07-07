@@ -148,3 +148,6 @@ section {
 .tsparticles-canvas-el{
   z-index: 1;
 }
+.downarrow{
+  font-size: 5.5vw;
+}

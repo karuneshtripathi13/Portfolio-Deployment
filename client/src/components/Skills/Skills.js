@@ -80,7 +80,7 @@ const Skills = () => {
           </div>
       </div>
       <a href="#Education">
-          <FontAwesomeIcon icon={faChevronCircleDown} size={"5x"} style={{marginTop:"2vw",color:"black"}}/>
+          <FontAwesomeIcon icon={faChevronCircleDown} className="downarrow" style={{marginTop:"2vw",color:"black"}}/>
       </a>
     </div>
   );

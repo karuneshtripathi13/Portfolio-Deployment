@@ -27,7 +27,7 @@ const Aboutme = () => {
         </div>
       </div>
       <a href="#Skillset">
-          <FontAwesomeIcon icon={faChevronCircleDown} size={"5x"} style={{marginTop:"2vw",color:"white"}}/>
+          <FontAwesomeIcon icon={faChevronCircleDown} className="downarrow" style={{marginTop:"2vw",color:"white"}}/>
       </a>
     </div>
   );
