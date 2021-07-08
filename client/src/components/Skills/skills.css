@@ -168,13 +168,14 @@
     height: 17vw !important;
     margin-top: 0vw !important;
     margin-left: 0vw !important;
+    margin-right: 2vw;
   }
   .reactlogoanimation {
     width: 16vw !important;
     height: 16vw !important;
     margin-right: 0vw !important;
     margin-top: 0vw !important;
-    margin-left: 28vw !important;
+    margin-left: 2vw !important;
   }
   .anime {
     flex-direction: column;
