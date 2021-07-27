@@ -20,7 +20,7 @@ const data={
         {
             "id":2,
             "photo":photo10,
-            "text":"Neural Network without using any libraries to grasp the basics of neural networks and gradient descent algorithm in detail",
+            "text":"Neural Network without using any libraries to grasp the basics of neural networks and gradient descent algorithm in detail. Prediction of MNIST digit Recogition dataset with 96.5% accuracy.",
             "link":"https://github.com/karuneshtripathi13/Neural-Network-without-Libraries",
         },
         {
